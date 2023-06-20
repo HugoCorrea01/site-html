@@ -14,7 +14,7 @@
 #elenco-feminino{
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(0, 0, 0);
+background-image: linear-gradient(to bottom, rgb(0, 0, 0), #7a7a7a, #c9c9c9);
     margin-right: 10px;
     padding: 10px;
     font-size: 10px;
