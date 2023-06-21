@@ -690,23 +690,3 @@ const jogadores = [
         "altura": "1,75m"
     }
 ];
-jogadores.forEach((jogador) => {
-    // Criar elementos HTML
-    const jogadorCard = document.createElement('div');
-    const nomeElement = document.createElement('h2');
-  
-    // Adicionar classes CSS
-    jogadorCard.classList.add('jogador-card');
-    nomeElement.classList.add('jogador-nome');
-  
-    // Definir conteúdo dos elementos
-    nomeElement.textContent = jogador.nome;
-  
-    // Adicionar elementos ao DOM
-    jogadorCard.appendChild(nomeElement);
-    // ...
-  
-    // Adicionar o jogadorCard a um contêiner existente na sua página
-    const container = document.getElementById('jogadores-container');
-    container.appendChild(jogadorCard);
-  });
